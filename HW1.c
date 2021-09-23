@@ -9,6 +9,7 @@ int main() {
     count = 0;
     answer = 0;
 
+    printf("Введите число в двоичной системе счисления: ");
     scanf("%d", &a);
 
     while (a > 0) {
@@ -18,7 +19,7 @@ int main() {
         a = a / 10;
     }
 
-    printf("%d \n", answer);
+    printf("Число в десятичной системе счисления: %d \n", answer);
 
     return 0;
 }
